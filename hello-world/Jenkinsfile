@@ -24,6 +24,7 @@ pipeline {
         stage('Run Integration Tests') {
             steps {
                 echo 'Run only crucial integration tests from the source code' 
+                echo 'Hello World'
             }
         }
         stage('Publish Artifacts') {
